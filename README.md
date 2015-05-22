@@ -5,6 +5,9 @@
 
 Lazily open a leveldown compatible backend.
 
+__NOTE:__ This doesn't work with levelup yet, we're working on it. In the meantime
+this can only be useful to you if you're using leveldown directly.
+
 [![NPM](https://nodei.co/npm/level-lazy-open.png)](https://nodei.co/npm/level-lazy-open/)
 
 [![Build Status](https://secure.travis-ci.org/Level/lazy-open.png)](http://travis-ci.org/Level/lazy-open)
