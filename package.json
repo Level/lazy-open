@@ -14,6 +14,7 @@
   "dependencies": {
     "abstract-leveldown": "^2.4.0",
     "debug": "^2.2.0",
+    "deferred-leveldown": "^1.1.0",
     "inherits": "^2.0.1"
   }
 }

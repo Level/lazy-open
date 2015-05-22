@@ -108,3 +108,13 @@ test('#close(cb)', function(t){
     });
   });
 });
+
+test('#iterator(opts)', function(t){
+  var lazy = new Lazy(factory);
+  var it = lazy.iterator({});
+  it.next(function(){
+    t.equal(arguments.length, 0, 'ended');
+    t.end();
+  });
+});
+
