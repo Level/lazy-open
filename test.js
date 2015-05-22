@@ -4,7 +4,10 @@ var MemDOWN = require('memdown');
 
 function factory(cb){
   setImmediate(function(){
-    cb(MemDOWN());
+    var db = MemDOWN();
+    db.open(function(err){
+      cb(err, db);
+    });
   });
 }
 
