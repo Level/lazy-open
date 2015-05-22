@@ -1,0 +1,19 @@
+{
+  "name": "level-lazy-open",
+  "version": "0.0.0",
+  "description": "Lazily open a leveldown compatible backend",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": "level/level-lazy-open",
+  "devDependencies": {
+    "memdown": "^1.0.0",
+    "tape": "^4.0.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "abstract-leveldown": "^2.4.0",
+    "debug": "^2.2.0",
+    "inherits": "^2.0.1"
+  }
+}
