@@ -11,6 +11,7 @@ inherits(Lazy, AbstractLevelDOWN);
 
 function Lazy(factory){
   assert(factory, 'factory required');
+  if (!(this instanceof Lazy)) return new Lazy(factory)
 
   AbstractLevelDOWN.call(this, '');
   this._factory = factory;

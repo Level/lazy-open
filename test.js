@@ -19,6 +19,8 @@ test('Lazy(factory)', function(t){
   var lazy = new Lazy(factory);
   t.ok(lazy, 'creates leveldown');
 
+  t.ok(Lazy(factory), 'without new too');
+
   t.end();
 });
 
