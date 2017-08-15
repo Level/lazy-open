@@ -68,6 +68,6 @@ See the [contribution guide](https://github.com/Level/community/blob/master/CONT
 <a name="licence"></a>
 ## Licence &amp; Copyright
 
-Copyright (c) 2012-2015 **level-lazy-open** [contributors](https://github.com/level/community#contributors).
+Copyright (c) 2012-2017 **level-lazy-open** [contributors](https://github.com/level/community#contributors).
 
 **level-lazy-open** is licensed under the MIT license. All rights not explicitly granted in the MIT license are reserved. See the included LICENSE.md file for more details.
