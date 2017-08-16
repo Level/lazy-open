@@ -1,6 +1,6 @@
 {
   "name": "level-lazy-open",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Lazily open a leveldown compatible backend",
   "scripts": {
     "test": "make test"
