@@ -10,7 +10,9 @@ this can only be useful to you if you're using leveldown directly.
 
 [![NPM](https://nodei.co/npm/level-lazy-open.png)](https://nodei.co/npm/level-lazy-open/)
 
-[![Build Status](https://secure.travis-ci.org/Level/lazy-open.png)](http://travis-ci.org/Level/lazy-open) [![Greenkeeper badge](https://badges.greenkeeper.io/Level/lazy-open.svg)](https://greenkeeper.io/)
+[![Build Status](https://secure.travis-ci.org/Level/lazy-open.png)](http://travis-ci.org/Level/lazy-open)
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![Greenkeeper badge](https://badges.greenkeeper.io/Level/lazy-open.svg)](https://greenkeeper.io/)
 
 ## Example
 

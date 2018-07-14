@@ -3,11 +3,12 @@
   "version": "1.0.2",
   "description": "Lazily open a leveldown compatible backend",
   "scripts": {
-    "test": "node test.js"
+    "test": "standard && node test.js"
   },
   "repository": "level/level-lazy-open",
   "devDependencies": {
     "memdown": "^1.2.4",
+    "standard": "^11.0.1",
     "tape": "^4.6.3"
   },
   "license": "MIT",
