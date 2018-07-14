@@ -3,7 +3,7 @@
   "version": "1.0.2",
   "description": "Lazily open a leveldown compatible backend",
   "scripts": {
-    "test": "make test"
+    "test": "node test.js"
   },
   "repository": "level/level-lazy-open",
   "devDependencies": {
