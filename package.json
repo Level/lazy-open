@@ -3,11 +3,14 @@
   "version": "1.0.2",
   "description": "Lazily open a leveldown compatible backend",
   "scripts": {
-    "test": "standard && node test.js"
+    "test": "standard && nyc node test.js",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "repository": "level/level-lazy-open",
   "devDependencies": {
+    "coveralls": "^3.0.2",
     "memdown": "^1.2.4",
+    "nyc": "^12.0.2",
     "standard": "^11.0.1",
     "tape": "^4.6.3"
   },
