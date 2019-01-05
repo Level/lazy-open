@@ -1,4 +1,3 @@
-
 # level-lazy-open
 
 <img alt="LevelDB Logo" height="100" src="http://leveldb.org/img/logo.svg">
@@ -59,18 +58,14 @@ Create a new [abstract-leveldown](https://github.com/level/abstract-leveldown)
 compatible db that calls `factory` to get a db whenever it hasn't yet and you
 perform an operation against it.
 
-<a name="contributing"></a>
 ## Contributing
 
-**level-lazy-open** is an **OPEN Open Source Project**. This means that:
+[`Level/lazy-open`](https://github.com/Level/lazy-open) is an **OPEN Open Source Project**. This means that:
 
 > Individuals making significant and valuable contributions are given commit-access to the project to contribute as they see fit. This project is more like an open wiki than a standard guarded open source project.
 
-See the [contribution guide](https://github.com/Level/community/blob/master/CONTRIBUTING.md) for more details.
+See the [Contribution Guide](https://github.com/Level/community/blob/master/CONTRIBUTING.md) for more details.
 
-<a name="licence"></a>
-## Licence &amp; Copyright
+## License
 
-Copyright (c) 2012-2017 **level-lazy-open** [contributors](https://github.com/level/community#contributors).
-
-**level-lazy-open** is licensed under the MIT license. All rights not explicitly granted in the MIT license are reserved. See the included LICENSE.md file for more details.
+[MIT](LICENSE.md) © 2012-present [Contributors](CONTRIBUTORS.md).
