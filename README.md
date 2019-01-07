@@ -9,10 +9,11 @@ this can only be useful to you if you're using leveldown directly.
 
 [![NPM](https://nodei.co/npm/level-lazy-open.png)](https://nodei.co/npm/level-lazy-open/)
 
-[![Build Status](https://secure.travis-ci.org/Level/lazy-open.png)](http://travis-ci.org/Level/lazy-open)
+[![Travis](https://img.shields.io/travis/Level/lazy-open.svg?logo=travis&label=)](https://travis-ci.org/Level/lazy-open)
 [![Coverage Status](https://coveralls.io/repos/github/Level/lazy-open/badge.svg)](https://coveralls.io/github/Level/lazy-open)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
-[![Greenkeeper badge](https://badges.greenkeeper.io/Level/lazy-open.svg)](https://greenkeeper.io/)
+[![Backers on Open Collective](https://opencollective.com/level/backers/badge.svg?color=orange)](#backers)
+[![Sponsors on Open Collective](https://opencollective.com/level/sponsors/badge.svg?color=orange)](#sponsors)
 
 ## Example
 
@@ -54,7 +55,7 @@ $ npm install level-lazy-open
 
 ### lazy(factory)
 
-Create a new [abstract-leveldown](https://github.com/level/abstract-leveldown)
+Create a new [abstract-leveldown](https://github.com/Level/abstract-leveldown)
 compatible db that calls `factory` to get a db whenever it hasn't yet and you
 perform an operation against it.
 
@@ -65,6 +66,18 @@ perform an operation against it.
 > Individuals making significant and valuable contributions are given commit-access to the project to contribute as they see fit. This project is more like an open wiki than a standard guarded open source project.
 
 See the [Contribution Guide](https://github.com/Level/community/blob/master/CONTRIBUTING.md) for more details.
+
+## Donate
+
+To sustain [`Level`](https://github.com/Level) and its activities, become a backer or sponsor on [Open Collective](https://opencollective.com/level). Your logo or avatar will be displayed on our 28+ [GitHub repositories](https://github.com/Level), [npm](https://www.npmjs.com/) packages and (soon) [our website](http://leveldb.org). 💖
+
+### Backers
+
+[![Open Collective backers](https://opencollective.com/level/backers.svg?width=890)](https://opencollective.com/level)
+
+### Sponsors
+
+[![Open Collective sponsors](https://opencollective.com/level/sponsors.svg?width=890)](https://opencollective.com/level)
 
 ## License
 
