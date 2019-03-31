@@ -7,24 +7,23 @@
     "test": "standard && hallmark && nyc node test.js",
     "coverage": "nyc report --reporter=text-lcov | coveralls",
     "hallmark": "hallmark --fix",
-    "dependency-check": "dependency-check . test.js",
-    "prepublishOnly": "npm run dependency-check"
+    "dependency-check": "dependency-check . test.js"
   },
   "dependencies": {
-    "abstract-leveldown": "^2.6.1",
-    "debug": "^3.0.0",
-    "deferred-leveldown": "^2.0.0",
-    "inherits": "^2.0.3"
+    "abstract-leveldown": "2.7.2",
+    "debug": "3.2.6",
+    "deferred-leveldown": "2.0.3",
+    "inherits": "2.0.3"
   },
   "devDependencies": {
-    "coveralls": "^3.0.2",
-    "dependency-check": "^3.3.0",
-    "hallmark": "^0.1.0",
-    "level-community": "^3.0.0",
-    "memdown": "^1.2.4",
-    "nyc": "^12.0.2",
-    "standard": "^11.0.1",
-    "tape": "^4.6.3"
+    "coveralls": "3.0.3",
+    "dependency-check": "3.3.0",
+    "hallmark": "0.1.0",
+    "level-community": "3.0.0",
+    "memdown": "1.4.1",
+    "nyc": "12.0.2",
+    "standard": "11.0.1",
+    "tape": "4.10.1"
   },
   "hallmark": {
     "community": "level-community",

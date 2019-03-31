@@ -1,16 +1,13 @@
 # level-lazy-open
 
-<img alt="LevelDB Logo" height="100" src="http://leveldb.org/img/logo.svg">
+**This project has been abandoned. There will be no further releases. If you wish to revive `level-lazy-open`, please open an issue in [`Level/community`](https://github.com/Level/community) to discuss a way forward. Thank you! :heart:**
+
+---
 
 Lazily open a leveldown compatible backend.
 
-__NOTE:__ This doesn't work with levelup yet, we're working on it. In the meantime
-this can only be useful to you if you're using leveldown directly.
+__NOTE:__ This doesn't work with levelup. This can only be useful to you if you're using leveldown directly.
 
-[![NPM](https://nodei.co/npm/level-lazy-open.png)](https://nodei.co/npm/level-lazy-open/)
-
-[![Travis](https://img.shields.io/travis/Level/lazy-open.svg?logo=travis&label=)](https://travis-ci.org/Level/lazy-open)
-[![Coverage Status](https://coveralls.io/repos/github/Level/lazy-open/badge.svg)](https://coveralls.io/github/Level/lazy-open)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![Backers on Open Collective](https://opencollective.com/level/backers/badge.svg?color=orange)](#backers)
 [![Sponsors on Open Collective](https://opencollective.com/level/sponsors/badge.svg?color=orange)](#sponsors)
