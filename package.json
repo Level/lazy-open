@@ -1,6 +1,6 @@
 {
   "name": "level-lazy-open",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Lazily open a leveldown compatible backend",
   "license": "MIT",
   "scripts": {
